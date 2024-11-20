@@ -59,7 +59,7 @@ function recalculate(){
 var modelButton = document.getElementById("model-button");
 
 function changeModel() {
-    let modelText = document.getElementById("model-text")
+    let modelText = document.getElementById("model-text");
     if (modelName == "XYZ") {
         modelName = "CPRG";
         modelText.innerHTML = "Model CPRG";
